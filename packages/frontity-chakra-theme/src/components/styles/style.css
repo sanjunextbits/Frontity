@@ -134,6 +134,12 @@ nav a {
   bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .banner_wrapper {
+    display: none;
+  }
+}
+
 .banner_content h1 {
   font-size: 32px;
   line-height: 38px;
