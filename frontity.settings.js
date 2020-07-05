@@ -14,10 +14,10 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/home"],
-            ["Our Work", "/our-work/"],
-            ["News", "/news/"],
-            ["Get Involved", "/get-involved/"],
-            ["About Us", "/about/"]
+            ["Our Work", "/our-work"],
+            ["News", "/news"],
+            ["Get Involved", "/get-involved"],
+            ["About Us", "/about"]
           ],
           socialLinks: [
             ["facebook", "https://www.facebook.com/thejdc"],
