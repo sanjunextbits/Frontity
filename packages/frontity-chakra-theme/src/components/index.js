@@ -46,7 +46,7 @@ const Theme = ({ state, libraries }) => {
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
         <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="//localhost/script.js"></script>
+        <script src="//raw.githubusercontent.com/sanjunextbits/Frontity/master/script.js"></script>
       </Head>
 
       {/* Add the header of the site. */}
