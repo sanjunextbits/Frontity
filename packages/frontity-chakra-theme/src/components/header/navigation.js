@@ -29,8 +29,8 @@ const Link = styled(FrontityLink)`
 
 export const SiteMenu = props => (
   <Stack
-    ml="50px"
-    spacing="50px"
+    ml="25px"
+    spacing="25px"
     as="ul"
     listStyleType="none"
     align="center"

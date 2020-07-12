@@ -26,7 +26,7 @@
     "@frontity/components": "^1.1.14",
     "@frontity/hooks": "1.1.13",
     "@frontity/html2react": "^1.1.14",
-    "emotion-theming": "10.0.19",
+    "emotion-theming": "^10.0.27",
     "frontity": "^1.4.2",
     "react-awesome-slider": "^4.1.0",
     "react-icons": "3.8.0"

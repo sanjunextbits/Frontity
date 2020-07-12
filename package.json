@@ -23,16 +23,15 @@
   "homepage": "https://github.com/chakra-ui/frontity-chakra-ui-theme#readme",
   "prettier": {},
   "dependencies": {
-    "@frontity/core": "^1.4.0",
-    "@frontity/html2react": "^1.1.14",
-    "@frontity/tiny-router": "^1.0.17",
-    "@frontity/wp-source": "^1.4.2",
+    "@frontity/core": "^1.7.2",
+    "@frontity/html2react": "^1.3.4",
+    "@frontity/tiny-router": "^1.2.1",
+    "@frontity/wp-source": "^1.8.0",
     "axios": "^0.19.2",
-    "frontity": "^1.4.2",
+    "bootstrap": "^4.5.0",
+    "frontity": "^1.10.0",
     "frontity-chakra-theme": "./packages/frontity-chakra-theme",
-    "react-awesome-slider": "^4.1.0",
     "react-slick": "^0.26.1",
-    "react-swipeable-views": "^0.13.9",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

@@ -39,18 +39,4 @@ const Item = styled.div`
     border-bottom: 2px solid
       ${({ isSelected }) => (isSelected ? "#fff" : "transparent")};
   }
-
-  &:first-of-type {
-    margin-left: 0;
-  }
-
-  &:last-of-type {
-    margin-right: 0;
-
-    &:after {
-      content: "";
-      display: inline-block;
-      width: 24px;
-    }
-  }
 `;

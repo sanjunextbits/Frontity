@@ -1,7 +1,6 @@
 import React , {Component } from "react";
 import { connect } from "frontity";
 import Slider from "react-slick";
-import axios from 'axios';
 
 const settings = {
   dots: true,
@@ -12,6 +11,8 @@ const settings = {
   slidesToScroll: 1
 };
 
+const numbers = [1, 2, 3, 4, 5];
+
 class Slick extends Component {
   constructor(props) {
       super(props)
@@ -19,10 +20,9 @@ class Slick extends Component {
   }
    render() {
     return (
-      
     <Slider {...settings}>
       {this.props.imgList.map((slide, i) => {
-            return <img src={slide.url} />
+            return <img key={numbers, i} src={slide.url} />
       })}
     </Slider>
     )

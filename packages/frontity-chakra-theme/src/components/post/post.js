@@ -13,7 +13,6 @@ import { getPostData, formatPostData, getSlickImage } from "../helpers";
 import HomepageArchive from '../archive/homepage-archive';
 import SlickSlid from '../../components/slick';
 
-
 const Post = ({ state, actions, libraries }) =>{ 
 
   const postData = getPostData(state);
@@ -47,11 +46,23 @@ const Post = ({ state, actions, libraries }) =>{
       <div className="banner_info">
         <SlickSlid imgList={state.source.page[data.id]['acf']['banner']}></SlickSlid>
         <div className="banner_wrapper">
-          <div className="banner_content">
+          <div className="banner_content container">
             <Html2React html={state.source.page[data.id]['acf']['content']} />
           </div>
         </div>
       </div>
+
+      {state.source.page[data.id]['acf']['communities'] != null && (
+      <div className="communities">
+        <Html2React html={state.source.page[data.id]['acf']['communities']} />
+      </div>
+      )}
+
+      {state.source.page[data.id]['acf']['supporters'] != null && (
+        <div className="supporters">
+          <Html2React html={state.source.page[data.id]['acf']['supporters']} />
+        </div>
+      )}
 
       <Box pb={{ base: "2rem", lg: "50px" }}>
         <PostHeader

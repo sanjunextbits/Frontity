@@ -48,8 +48,8 @@ const icons = {
 };
 
 const SocialNav = ({ menu, ...props }) => (
-  <Box ml="auto" display={{ base: "none", lg: "block" }} {...props}>
-    <SocialMenu menu={menu} />
+  <Box ml="auto" className="social-nav" display={{ base: "none", lg: "block" }} {...props}>
+    <SocialMenu className="social-icons" menu={menu} />
   </Box>
 );
 

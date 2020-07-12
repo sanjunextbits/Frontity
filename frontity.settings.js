@@ -13,7 +13,6 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Home", "/home"],
             ["Our Work", "/our-work"],
             ["News", "/news"],
             ["Get Involved", "/get-involved"],

@@ -9,15 +9,12 @@ const SearchButton = props => (
     display="flex"
     alignItems="center"
     justifyContent="center"
-    transition="background-color ease 0.25s"
-    _hover={{ bg: "white" }}
     flexShrink="0"
     size="46px"
-    bg="accent.400"
     ml={{ base: "auto", lg: "3rem" }}
     {...props}
   >
-    <Box size={6} color="primary.700" as={IoIosSearch} />
+    <Box size={6} color="white" as={IoIosSearch} />
   </PseudoBox>
 );
 

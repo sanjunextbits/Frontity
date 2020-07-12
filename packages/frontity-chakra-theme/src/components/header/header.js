@@ -21,6 +21,7 @@ const SiteHeader = props => (
 const SiteHeaderInner = props => (
   <Flex
     align="center"
+    className="container"
     width={{ base: "auto", sm: "92%" }}
     mx="auto"
     height={{ sm: "70px" }}
@@ -50,7 +51,7 @@ const SiteLogo = connect(({ state, ...props }) => {
   const isImage = isUrl(state.theme.logo);
   return (
     <Box display="block" flexShrink="0" {...omitConnectProps(props)}>
-      <Link link="/">
+      <Link link="/home">
         <Logo isImage={isImage} src={state.theme.logo} />
       </Link>
     </Box>
@@ -63,6 +64,9 @@ const Header = ({ children, ...props }) => (
       <MobileMenu />
       <SiteLogo />
       {children}
+      <Box className="donate">
+        <Link link="https://donate.jdc.org/give/109212/#!/donation/checkout?c_src=jdcobtn&amp;c_src2=Home13">Donate</Link>
+      </Box>
     </SiteHeaderInner>
   </SiteHeader>
 );
