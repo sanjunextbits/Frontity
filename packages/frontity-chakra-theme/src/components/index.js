@@ -46,7 +46,7 @@ const Theme = ({ state, libraries }) => {
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
         <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="http://85.125.193.14/frontity/script.js"></script>
+        <script src="//cdn.shopify.com/s/files/1/0268/9148/5226/t/1/assets/script.js"></script>
       </Head>
 
       {/* Add the header of the site. */}
