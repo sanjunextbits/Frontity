@@ -711,6 +711,8 @@ button:focus {
   text-align: center;
   display: flex;
   font-family: Poppins, sans-serif;
+  position: relative;
+  z-index: 2;
 }
 
 #familysearch .wpb_wrapper {
@@ -720,7 +722,7 @@ button:focus {
 .parallax-inner {
   position: absolute;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
   background-size: cover;
 }
 
@@ -758,6 +760,7 @@ button:focus {
   margin-right: 8px;
   color: rgb(48, 48, 48);
   float: left;
+  margin: 0;
 }
 
 .search-archives button {
@@ -803,7 +806,7 @@ button:focus {
   text-decoration: none;
 }
 
-.new-event-list .event-card.ent .event-rsvp a:hover {
+.new-event-list .event-card.ent .event-rsvp:hover a {
   text-decoration: none !important;
 }
 
@@ -1041,3 +1044,184 @@ button:focus {
   font-weight: 700;
   margin-top: 30px;
 } 
+
+footer {
+  background-color: #333 !important;
+}
+
+footer svg {
+  color: #fff;
+}
+.site-footer {
+  
+  padding: 70px 0;
+  position: relative;
+  font-family: Poppins,sans-serif;
+}
+.site-footer-bottom{
+	background-color:#222;
+	padding:20px 0;
+	color:#999;
+	position:relative;
+}
+.site-footer-bottom p{
+	margin-bottom:0;
+	font-size:13px;
+}
+
+
+.site-footer h4 {
+	color: #ffffff;
+	margin: 0 0 35px;
+}
+
+.site-footer form input {
+	height: 55px;
+	line-height: 55px;
+	border: none;
+	width: 90%;
+	padding: 0px 20px;
+	color: #333;
+	margin-bottom: 9px;
+	font-size: 18px;
+}
+
+.site-footer form.hs-form label {
+	display: none;	
+}
+
+.site-footer form button, .site-footer form input.hs-button {
+	background-image: none;
+	width: 90%;
+	text-align: center;
+	font-style: normal;
+	padding: 0;
+	height: 54px;
+	line-height: 54px;
+	font-size: 20px;
+	margin: 0 auto;
+	background-color: #f89743;
+	border-radius: 5px;
+	color: #ffffff;
+	border: none;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.site-footer ul.footer-info {
+	list-style-type: none;
+	margin: 0;
+}
+
+	.site-footer ul.footer-info li {
+		border-bottom: 1px solid #404040;
+		padding-left: 10px;
+		padding-bottom: 14px;
+		margin-bottom: 16px;
+		font-size: 14px;
+		background: url('//www.jdc.org/wp-content/wp-content/uploads/2019/02/button-triangle-1.png') no-repeat left 8px transparent;
+	}
+
+		.site-footer ul.footer-info li a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+.site-footer #footer-social {
+	height: 80px;
+}
+
+.copyrights-col-right ul {
+  justify-content: left;
+}
+
+	.site-footer #footer-social ul#footer-social-icons {
+		list-style-type: none;
+		margin: 0px;
+		float: left;
+		height: 53px;
+	}
+
+		.site-footer #footer-social ul#footer-social-icons li {
+			height: 53px;
+			width: 53px;
+			margin-right: 8px;
+			float: left;
+		}
+
+			.site-footer #footer-social ul#footer-social-icons li a {
+				height: 53px;
+				width: 53px;
+				overflow: hidden;
+				display: block;
+				text-indent: -10000px;
+			} 
+
+.site-footer ul#footer-partners {
+	list-style-type: none;
+	margin: 0;
+}
+
+	.site-footer ul#footer-partners li {
+		margin-bottom: 14px;
+	}
+
+		.site-footer ul#footer-partners li a {
+			display: block;
+			overflow: hidden;
+			text-indent: -10000px;
+		}
+
+			.site-footer ul#footer-partners li a#footer-jfna {
+				height: 76px;
+				width: 265px;
+				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-jfna-2.jpg') no-repeat left top transparent;
+			}
+
+			.site-footer ul#footer-partners li a#footer-claims {
+				height: 63px;
+				width: 284px;
+				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-claims-conference.jpg') no-repeat left top transparent;
+			}
+
+.site-footer ul#footer-stickers {
+	clear: both;
+	list-style-type: none;
+	margin: 0;
+}
+
+	.site-footer ul#footer-stickers li {
+		float: left;
+		margin-right: 20px;
+	}
+
+		.site-footer ul#footer-stickers li a {
+			overflow: hidden;
+			display: block;
+			text-indent: -10000px;
+			height: 95px;
+		}
+
+			.site-footer ul#footer-stickers li a#footer-bbb {
+				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-bbb.jpg') no-repeat center transparent;
+				width: 51px;
+			}
+
+			.site-footer ul#footer-stickers li a#footer-israelprize {
+				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-israel-prize.jpg') no-repeat center transparent;
+				width: 100px;
+			}
+
+			.site-footer ul#footer-stickers li a#footer-charitynavigator {
+				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-charity-navigator.jpg') no-repeat center transparent;
+				width: 113px;
+			}
+
+			.site-footer ul#footer-stickers li a#footer-charitywatch {
+				background: url('style-images/footer-charity-watch.jpg') no-repeat center transparent;
+				width: 122px;
+			}
+
+.site-footer-bottom p {
+	color: #ffffff;
+}

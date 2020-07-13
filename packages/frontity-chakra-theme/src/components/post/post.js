@@ -74,17 +74,6 @@ const Post = ({ state, actions, libraries }) =>{
           <Html2React html={state.source.page[data.id]['acf']['events']} />
       )}
 
-      <Box pb={{ base: "2rem", lg: "50px" }}>
-        <PostHeader
-          mt={{ base: "20px", lg: "4rem" }}
-          px={{ base: "32px", md: "0" }}
-          categories={post.categories}
-          heading={post.title}
-          author={post.author}
-          date={post.publishDate}
-          isPage={postData.isPage}
-        />
-      </Box>
       <HomepageArchive></HomepageArchive>
 
       {!postData.isPage && <PostProgressBar value={scroll} />}
@@ -101,7 +90,6 @@ const Post = ({ state, actions, libraries }) =>{
           as={Section}
           px={{ base: "32px", md: "0" }}
           size="md"
-          pt="50px"
         >
           <Html2React html={post.content} />
         </Content>
