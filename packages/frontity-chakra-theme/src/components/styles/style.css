@@ -1119,7 +1119,6 @@ footer svg {
 		padding-bottom: 14px;
 		margin-bottom: 16px;
 		font-size: 14px;
-		background: url('//www.jdc.org/wp-content/wp-content/uploads/2019/02/button-triangle-1.png') no-repeat left 8px transparent;
 	}
 
 		.site-footer ul.footer-info li a {
@@ -1216,11 +1215,7 @@ footer svg {
 				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-charity-navigator.jpg') no-repeat center transparent;
 				width: 113px;
 			}
-
-			.site-footer ul#footer-stickers li a#footer-charitywatch {
-				background: url('style-images/footer-charity-watch.jpg') no-repeat center transparent;
-				width: 122px;
-			}
+ 
 
 .site-footer-bottom p {
 	color: #ffffff;
