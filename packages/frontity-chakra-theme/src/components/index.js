@@ -45,7 +45,7 @@ const Theme = ({ state, libraries }) => {
       <Title />
       <Head>
         <meta name="description" content={state.frontity.description} />
-        <meta name="robots" content="index"/>
+        <meta name="robots" content="index"/> 
         <html lang="en" />
       </Head>
 
