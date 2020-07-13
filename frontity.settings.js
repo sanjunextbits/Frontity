@@ -35,7 +35,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "http://85.125.193.14/frontity/wp-json"
+          api: "https://pwa.appdemoz.com/wp-json"
         }
       }
     },

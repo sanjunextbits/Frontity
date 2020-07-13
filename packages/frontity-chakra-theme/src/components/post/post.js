@@ -64,6 +64,16 @@ const Post = ({ state, actions, libraries }) =>{
         </div>
       )}
 
+      {state.source.page[data.id]['acf']['story'] != null && (
+        <div className="family-story">
+          <Html2React html={state.source.page[data.id]['acf']['story']} />
+        </div>
+      )}
+
+      {state.source.page[data.id]['acf']['events'] != null && (
+          <Html2React html={state.source.page[data.id]['acf']['events']} />
+      )}
+
       <Box pb={{ base: "2rem", lg: "50px" }}>
         <PostHeader
           mt={{ base: "20px", lg: "4rem" }}
@@ -95,17 +105,6 @@ const Post = ({ state, actions, libraries }) =>{
         >
           <Html2React html={post.content} />
         </Content>
-
-        <Divider borderBottom="1px solid" my="80px" />
-
-        <Section px={{ base: "32px", md: "0" }}>
-          <AuthorBio
-            image={post.author.avatar_urls["96"]}
-            name={post.author.name}
-            description={post.author.description}
-            link={post.author.link}
-          />
-        </Section>
       </Section>
     </LightPatternBox>
   );

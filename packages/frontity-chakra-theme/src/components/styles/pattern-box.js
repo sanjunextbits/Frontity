@@ -42,7 +42,7 @@ export const LightPatternBox = React.forwardRef(
   ({ showPattern = true, ...props }, ref) => (
     <PseudoBox
       ref={ref}
-      bg="accent.50"
+      bg="white"
       pt="40px"
       pos="relative"
       zIndex={0}

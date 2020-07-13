@@ -16,6 +16,7 @@ import slickTheme from "../assets/slick-theme.css";
 import customTheme from "./styles/style.css";
 import bootstrapCSS from 'bootstrap/dist/css/bootstrap.css';
 import Slider from "react-slick";
+import Sticky from "./sticky";
 
 
 // Theme is the root React component of our theme. The one we will export
@@ -45,11 +46,10 @@ const Theme = ({ state, libraries }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
-        <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="//cdn.shopify.com/s/files/1/0268/9148/5226/t/1/assets/script.js"></script>
       </Head>
 
       {/* Add the header of the site. */}
+      <Sticky />
       <Header />
       {/* Add the main section. It renders a different component depending
       on the type of URL we are in. */}
