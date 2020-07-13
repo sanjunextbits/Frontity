@@ -36,7 +36,8 @@ const Footer = ({ state }) => (
                     <div className="textwidget">
                         <h4>Get Updates</h4>
                         <form>
-                        <input type="email" name="email" placeholder="Email Address" />
+                        <label htmlFor="email" className="d-none">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Email Address" />
                         <button type="submit" className="hs-button primary large" >Sign Up for JDC Emails</button>
                         </form>
                     </div>

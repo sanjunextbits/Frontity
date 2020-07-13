@@ -32,7 +32,7 @@ const SiteHeaderInner = props => (
 
 const Logo = ({ isImage = true, src }) =>
   isImage ? (
-    <Box as="img" src={src} width="73px" />
+    <Box as="img" alt="JDC Logo" src={src} width="73px" />
   ) : (
     <Box
       fontSize="2xl"
@@ -53,6 +53,7 @@ const SiteLogo = connect(({ state, ...props }) => {
     <Box display="block" flexShrink="0" {...omitConnectProps(props)}>
       <Link link="/home">
         <Logo isImage={isImage} src={state.theme.logo} />
+        <span className="d-none">Logo</span>
       </Link>
     </Box>
   );

@@ -15,6 +15,7 @@ const MenuButton = forwardRef((props, ref) => (
     {...props}
   >
     <Box size={10} color="accent.400" as={IoIosMenu} />
+    <div className="d-none">Hamburger</div>
   </PseudoBox>
 ));
 

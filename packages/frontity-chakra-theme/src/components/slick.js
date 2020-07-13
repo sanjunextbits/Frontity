@@ -22,7 +22,7 @@ class Slick extends Component {
     return (
     <Slider {...settings}>
       {this.props.imgList.map((slide, i) => {
-            return <img key={numbers, i} src={slide.url} />
+          return <img alt={'Banner' + i} key={numbers, i} src={slide.url} />
       })}
     </Slider>
     )

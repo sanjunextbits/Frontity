@@ -88,7 +88,7 @@ const Post = ({ state, actions, libraries }) =>{
        by the processors we included in the libraries.html2react.processors array. */}
         <Content
           as={Section}
-          px={{ base: "32px", md: "0" }}
+          px={{ base: "0", md: "0" }}
           size="md"
         >
           <Html2React html={post.content} />
