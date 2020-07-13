@@ -1174,13 +1174,13 @@ footer svg {
 			.site-footer ul#footer-partners li a#footer-jfna {
 				height: 76px;
 				width: 265px;
-				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-jfna-2.jpg') no-repeat left top transparent;
+				/* background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-jfna-2.jpg') no-repeat left top transparent; */
 			}
 
 			.site-footer ul#footer-partners li a#footer-claims {
 				height: 63px;
 				width: 284px;
-				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-claims-conference.jpg') no-repeat left top transparent;
+				/* background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-claims-conference.jpg') no-repeat left top transparent; */
 			}
 
 .site-footer ul#footer-stickers {
@@ -1201,7 +1201,7 @@ footer svg {
 			height: 95px;
 		}
 
-			.site-footer ul#footer-stickers li a#footer-bbb {
+			/* .site-footer ul#footer-stickers li a#footer-bbb {
 				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-bbb.jpg') no-repeat center transparent;
 				width: 51px;
 			}
@@ -1214,7 +1214,7 @@ footer svg {
 			.site-footer ul#footer-stickers li a#footer-charitynavigator {
 				background: url('//www.jdc.org/wp-content/themes/born-to-give-child/style-images/footer-charity-navigator.jpg') no-repeat center transparent;
 				width: 113px;
-			}
+			} */
  
 
 .site-footer-bottom p {
