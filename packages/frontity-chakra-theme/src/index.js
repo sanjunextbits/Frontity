@@ -20,7 +20,7 @@ const chakraTheme = {
        * logo: "https://uploads-ssl.webflow.com/5be00771820599586e6bd032/5be0223588110a6dbcac2d05_image.svg",
        */
       logo: "Frontity",
-      logo: "https://www.jdc.org/wp-content/uploads/2019/04/JDC-Logo.svg",
+      logo: "https://pwa.appdemoz.com/wp-content/uploads/2020/07/JDC-Logo.svg",
       showBackgroundPattern: false,
       showSocialLinks: true,
       /**
